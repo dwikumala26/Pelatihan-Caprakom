@@ -42,6 +42,7 @@
         // Insert user data into table
         $result = mysqli_query($conn, "INSERT INTO pegawai(nip,nama,alamat) VALUES('$nip','$nama','$alamat')");
 
+        
         // Show message when user added
         //echo "User added successfully. <a href='index.php'>View Users</a>";
 
